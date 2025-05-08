@@ -130,6 +130,7 @@
     <ClCompile Include="Git_Project.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="egor_functions.h" />
     <ClInclude Include="functions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
