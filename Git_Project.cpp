@@ -1,6 +1,6 @@
 #include <iostream>
 #include <Windows.h>
-using namespace std;
+using namespace std; // это дерьмо в больших проектах нельзя использовать
 
 int main()
 {
