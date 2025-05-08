@@ -1,8 +1,13 @@
 #include <iostream>
+#include <Windows.h>
 using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
-
+    for (int i = 1000; i >= 0; i -= 7)
+    {
+        std::cout << i << std::endl;
+        Sleep(100);
+    }
+    return 0;
 }
